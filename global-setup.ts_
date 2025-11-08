@@ -1,0 +1,53 @@
+// global-setup.ts
+import { request, FullConfig } from '@playwright/test';
+import * as dotenv from 'dotenv';
+import fs from 'fs';
+import path from 'path';
+
+dotenv.config();
+
+const LOGIN_PAYLOAD = {
+  username: 'SYSADMIN', // укажи нужного пользователя
+  password: '***',      // укажи реальный пароль
+  grant_type: 'password',
+  client_id: 'web',
+};
+
+async function globalSetup(config: FullConfig) {
+  const baseURL = 'https://farvater.mcad.dev'; // ✅ корневой домен без /api
+
+  const requestContext = await request.newContext({
+    baseURL, // ✅ теперь /token?authType=TDMS будет корректным путём
+    extraHTTPHeaders: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'Accept': 'application/json',
+    },
+  });
+
+  console.log('🔐 Отправляем запрос на получение токена...');
+
+  const response = await requestContext.post('/token?authType=TDMS', {
+    form: LOGIN_PAYLOAD,
+  });
+
+  if (!response.ok()) {
+    throw new Error(`❌ Ошибка при получении токена: ${response.status()} ${response.statusText()}`);
+  }
+
+  const body = await response.json();
+  const token = body.access_token || body.token || body.AccessToken;
+
+  if (!token) {
+    throw new Error(`❌ Не удалось извлечь токен из ответа: ${JSON.stringify(body, null, 2)}`);
+  }
+
+  console.log('✅ Токен успешно получен и сохранён в .env');
+
+  // сохраняем токен в .env
+  const envPath = path.resolve(__dirname, '.env');
+  fs.writeFileSync(envPath, `ACCESS_TOKEN=${token}\n`);
+
+  await requestContext.dispose();
+}
+
+export default globalSetup;

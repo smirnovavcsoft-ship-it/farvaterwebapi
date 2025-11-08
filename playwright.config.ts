@@ -1,4 +1,9 @@
 import { defineConfig, devices } from '@playwright/test';
+import * as dotenv from 'dotenv';
+import path from 'path';
+
+// Загружаем .env
+dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 /**
  * Read environment variables from file.
@@ -32,6 +37,8 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
   },
+
+  globalSetup: require.resolve('./global-setup'),
 
   testIgnore: [
     '**/example.spec.ts', // Исключает файл example.spec.ts
