@@ -5,6 +5,11 @@ import path from 'path';
 // Загружаем .env
 dotenv.config({ path: path.resolve(__dirname, '.env') });
 
+
+const storageStatePath = path.join(__dirname, 'auth/user.json');
+
+
+
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -31,6 +36,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     baseURL: 'https://farvater.mcad.dev/',
+    storageState: storageStatePath,
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
 

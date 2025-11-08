@@ -39,6 +39,8 @@ async function globalSetup() {
         throw new Error(`Global setup failed: Could not authenticate. Status: ${response.status()}, Body: ${errorBody}`);
     }
 
+    await requestContext.storageState({ path: 'auth/user.json' });
+
     // 3. Сохраняем токен
     const responseBody = await response.json();
     const accessToken = responseBody.access_token;
@@ -48,6 +50,9 @@ async function globalSetup() {
     fs.writeFileSync('.env', `ACCESS_TOKEN=${accessToken}`);
     
     console.log(`✅ Access Token obtained and saved to environment.`);
+
+    console.log(`✅ Authentication state (including cookies) saved to auth/user.json.`);
+
 
     if (response.status() !== 200) {
         const errorBody = await response.text();

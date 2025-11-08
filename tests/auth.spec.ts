@@ -29,7 +29,15 @@ test.describe('Authentication API Tests', () => {
             // Playwright автоматически устанавливает Content-Type: application/json
             // при использовании 'data', но вы можете добавить заголовки вручную, если нужно:
             // headers: { 'Content-Type': 'application/json' }
+
+            
+
+
         });
+
+        
+
+        
 
         // 2. Проверка HTTP-статуса
         expect(response.status()).toBe(200);
