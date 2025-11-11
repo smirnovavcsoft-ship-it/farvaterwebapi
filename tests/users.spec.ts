@@ -25,9 +25,7 @@ const user6Lastname = 'Габен', user6Firstname = 'Жан';
 const NEW_USER_PAYLOAD = {
     firstName: "Ален",
     lastName: "Делон",
-    login: UNIQUE_LOGIN, // Используем уникальный логин для предотвращения конфликтов
-    
-    // Поля с пустыми значениями или булевыми флагами
+    login: UNIQUE_LOGIN, 
     middleName: "",
     phone: "",
     mail: "",
