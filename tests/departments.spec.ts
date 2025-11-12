@@ -2,6 +2,7 @@
 import { test, expect, APIRequestContext } from '@playwright/test';
 import { v4 as uuidv4 } from 'uuid'; //Для уникальных кодов
 import * as dotenv from 'dotenv';
+import * as fs from 'fs'; // 💡 Добавляем модуль для работы с файловой системой
 
 //---------------------------------------------------------
 // КОНФИГУРАЦИЯ И ПЕРЕМЕННЫЕ СОСТОЯНИЯ
@@ -15,7 +16,7 @@ console.log('Loaded token', accessToken);
 // Эндпойнт для подразделений
 const DEPARTMENTS_URL = '/api/farvater/data/v1/departments';
 
-// Данные для тестирования
+/*// Данные для тестирования
 const TARGET_DEPARTMENT_NAME = 'Отдел архитектуры и градостроительства';
 const TARGET_DEPARTMENT_CODE = 'ОАГ'
 
@@ -27,7 +28,7 @@ const PERMANENT_DEPARTMENT_PAYLOAD = {
 const TEMP_DEPARTMENT_PAYLOAD = {
     description: `Временное наименование подразделения ${uuidv4().substring(0, 8)}`,
     code: `Временный код подразделения ${uuidv4().substring(0, 8)}`,
-};
+};*/
 
 if(!accessToken) {
     throw new Error ('ACCESS_TOKEN не установлен. Убедитесь, что global-setup.ts отработал.');
@@ -54,12 +55,30 @@ test.describe('Department API Conditional Testing', () => {
     })
 
     // Основной тест
-    test('sould conditionally create or manage the target department', async () => {
+    test.only('sould conditionally create or manage the target department', async () => {
         // 1. GET: Получить все подразделения
         const getResponse = await request.get(DEPARTMENTS_URL);
         expect(getResponse.status()).toBe(200);
         const allDepartments = await getResponse.json();
-        // 2. Check: Проверить существование целевого подразделения
+
+        // 🚀 НОВЫЙ ШАГ: ЗАПИСЬ ОТВЕТА В ФАЙЛ
+
+        // Преобразуем объект в читаемый JSON-формат (null, 2 делает его красивым)
+        const departmentsJson = JSON.stringify(allDepartments, null, 2); 
+        
+        // Записываем строку в файл в корне проекта
+        // (Имя файла можно сделать динамическим, чтобы не перезаписывать его постоянно)
+        const filePath = './test_output/all_departments_list.json';
+        
+        // 💡 Создаем директорию, если она не существует
+        if (!fs.existsSync('./test_output')) {
+            fs.mkdirSync('./test_output');
+        }
+
+        fs.writeFileSync(filePath, departmentsJson);
+        console.log(`✅ Ответ API сохранен в: ${filePath}`);
+
+        /*// 2. Check: Проверить существование целевого подразделения
         const targetDepartment = allDepartments.find(
             (p: any) => p.description === TARGET_DEPARTMENT_NAME || p.code === TARGET_DEPARTMENT_CODE
         );
@@ -98,7 +117,7 @@ test.describe('Department API Conditional Testing', () => {
                     console.log(`Постоянное подразделение ID:${permanentDepartmentIdToClean} успешно создана. `);
 
                 }
-        }
+        }*/
 
         // 3. Хук: Очистка (выполняется один раз после всех тестов)
 

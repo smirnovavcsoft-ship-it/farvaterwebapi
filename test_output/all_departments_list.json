@@ -1,0 +1,149 @@
+[
+  {
+    "$id": "1",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "sysId": "NODE_BBDC8F5C_2B75_494A_9DE4_6C8368C982C9",
+    "code": "",
+    "handle": "THE39F14B39F1C0000000000",
+    "description": "Группа Дубова",
+    "assignable": false
+  },
+  {
+    "$id": "2",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "sysId": "NODE_46EB1472_6EA6_45A2_BF90_8F634DA9C490",
+    "code": "",
+    "handle": "TH0BA614D6A5210000000000",
+    "description": "Отдел кислых щей",
+    "assignable": false
+  },
+  {
+    "$id": "3",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "sysId": "NODE_9578CE36_1F5B_4352_B29C_2D4FC0AAC9D8",
+    "code": "",
+    "handle": "TH49F81416F81F0000000000",
+    "description": "Руководство",
+    "assignable": false
+  },
+  {
+    "$id": "4",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "sysId": "NODE_484E06BE_C6E8_4001_A52F_088C5305519A",
+    "code": "1",
+    "handle": "THA8781477781D0000000000",
+    "description": "Отдел охраны окружающей среды",
+    "assignable": false
+  },
+  {
+    "$id": "5",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "leader": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+      "description": "Голубков Илья Сергеевич",
+      "handle": "TH64231534231B0000000000",
+      "sysId": "USER_BE50F4A8_629D_4B1E_858F_4CD9E6575C5E"
+    },
+    "sysId": "NODE_7DF7D0AC_DC6D_4FB7_9F0C_87D4F9CDA483",
+    "code": "BIM",
+    "handle": "TH69751439751C0000000000",
+    "description": "BIM-отдел",
+    "assignable": false
+  },
+  {
+    "$id": "6",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "sysId": "NODE_45D8F454_4D3A_4133_AB20_441119D8A777",
+    "code": "АУП",
+    "handle": "THC4351492351E0000000000",
+    "description": "Администрация и управление",
+    "assignable": false
+  },
+  {
+    "$id": "7",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "sysId": "NODE_525E239C_67E9_40D7_B274_5B053F9EBD1A",
+    "code": "ДО",
+    "handle": "THC035148E351E0000000000",
+    "description": "Договорной отдел",
+    "assignable": false
+  },
+  {
+    "$id": "8",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "leader": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+      "description": "Зяблик Семен Семенович",
+      "handle": "TH193615E6351E0000000000",
+      "sysId": "USER_22164279_7DB4_4DF2_BAA9_F91344608719"
+    },
+    "sysId": "NODE_40B2C07A_EDD4_41BF_A10E_94862442E278",
+    "code": "К",
+    "handle": "THC5351493351E0000000000",
+    "description": "Канцелярия",
+    "assignable": false
+  },
+  {
+    "$id": "9",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "sysId": "NODE_920280CC_A978_46FF_902F_E4EB6D9B58F2",
+    "code": "ОИТ",
+    "handle": "TH2D4414FE431B0000000000",
+    "description": "Отдел информационных технологий",
+    "assignable": false
+  },
+  {
+    "$id": "10",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "leader": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+      "description": "Данилейко Сергей Григорьевич",
+      "handle": "TH6E44153E441B0000000000",
+      "sysId": "USER_1DCC1870_B488_4774_9D01_C21364A488A1"
+    },
+    "sysId": "NODE_B4DA8072_D801_4652_864D_BF0E2831CBD3",
+    "code": "ОУП",
+    "handle": "TH294414FA431B0000000000",
+    "description": "Отдел управления проектами",
+    "assignable": false
+  },
+  {
+    "$id": "11",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "leader": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+      "description": "Кукушкин Иван Иванович",
+      "handle": "THE93515B6351E0000000000",
+      "sysId": "USER_54F228ED_B8D8_4954_8FA0_2978E92049CF"
+    },
+    "sysId": "NODE_61BE3FBD_BB35_4EB0_A208_52FA5C2E8876",
+    "code": "ПО",
+    "handle": "THC2351490351E0000000000",
+    "description": "Проектный отдел",
+    "assignable": false
+  },
+  {
+    "$id": "12",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "leader": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+      "description": "Синичкин Филипп Григорьевич",
+      "handle": "TH37361504361E0000000000",
+      "sysId": "USER_E139123B_65EE_482F_AAC4_90D97E60A078"
+    },
+    "sysId": "NODE_26E2C052_D825_4297_B3CB_86CF0CEF5BE3",
+    "code": "СО",
+    "handle": "THC3351491351E0000000000",
+    "description": "Сметный отдел",
+    "assignable": false
+  },
+  {
+    "$id": "13",
+    "$type": "Tdms.Farvater.WebApi.DTO.Objects.DepartmentDto, Tdms.Farvater",
+    "sysId": "NODE_208EF03E_8206_4EC5_B8BC_AF5D6616D358",
+    "code": "ТП",
+    "handle": "THC9321496321F0000000000",
+    "description": "Тестовое подразделение",
+    "assignable": false
+  }
+]
