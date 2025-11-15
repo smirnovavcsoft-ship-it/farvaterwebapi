@@ -15,7 +15,7 @@ const GROUP_NAME3 = 'Архиваторы для проверки';
 const GROUP_NAME4 = 'Юристы для проверки';
 const GROUP_NAME1 = 'Делопроизводители для проверки';
 
-const GROUP_PAYLOAD = {
+const GROUP1_PAYLOAD = {
     title: GROUP_NAME1,
     isAdmin: false,
     isArchive: false,

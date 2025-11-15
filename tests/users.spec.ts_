@@ -1,0 +1,117 @@
+// tests/users.spec.ts
+import { test, expect, APIRequestContext } from '@playwright/test';
+import { v4 as uuidv4 } from 'uuid'; // Для уникальных кодов
+import * as dotenv from 'dotenv';
+import *as fs from 'fs';
+
+ //КОНФИГУРАЦИЯ И ПЕРЕМЕННЫЕ СОСТОЯНИЯ
+
+dotenv.config(); 
+const accessToken = process.env.ACCESS_TOKEN;
+console.log('🔑 Loaded token:', accessToken);
+
+//Эндпоинт для должностей
+
+const USERS_URL = '/api/farvater/data/v1/users';
+const DELETE_USER_URL = "https://farvater.mcad.dev/api/farvater/data/v1/users?filter=all";
+
+
+// Данные для тестирования
+const user1Lastname = 'Белкин', user1Firstname = 'Анатолий';
+//const user2Lastname = 'Бельмондо', user2Firstname = 'Жан-Поль';
+//const user3Lastname = 'Депардье', user3Firstname = 'Жерар';
+////const user4Lastname = 'Ришар', user4Firstname = 'Пьер';
+//const user5Lastname = 'Рено', user5Firstname = 'Жан';
+//const user6Lastname = 'Габен', user6Firstname = 'Жан';
+
+const NEW_USER_PAYLOAD = {
+    firstName: user1Firstname,
+    lastName: user1Lastname,
+    login: user1Lastname, 
+    middleName: "",
+    phone: "",
+    mail: "",
+    isDisabled: true,
+    isDomainUser: false,
+    isLeader: false,
+    personnelNumber: "",
+    rightToSign: false,
+    
+    // Объекты, которые могут быть пустыми или содержать ID (если известно)
+    department: {},
+    position: {},
+};
+
+if (!accessToken) {
+    throw new Error('ACCESS_TOKEN не установлен. Убедитесь, что global-setup.ts отработал.')
+}
+
+let request: APIRequestContext;
+
+let permanentPositionIdToClean: string | null = null;
+
+test.describe('Users API Conditional Testing', () => {
+    test.beforeAll(async ({ playwright, baseURL }) => {
+            request = await playwright.request.newContext({
+                extraHTTPHeaders: {
+                    'Authorization': `Bearer ${accessToken}`,
+                    'Content-Type': 'application/json',
+                },
+                baseURL: baseURL,
+            });
+        });
+
+         test('should conditionally create and maybe delete a user or more', async () => {
+        // GET
+        const getResponse = await request.get(USERS_URL);
+        expect(getResponse.status()).toBe(200);
+        const allUsers = await getResponse.json();
+
+        // Запись ответа в файл
+
+        const usersJson = JSON.stringify(allUsers, null, 2);
+        const filePath = './test_output/all_users_list.json';
+
+        if (!fs.existsSync('./test_output')) {
+            fs.mkdirSync('./test_output');
+        }
+
+        fs.writeFileSync(filePath, usersJson);
+        console.log(`✅ Ответ API сохранен в: ${filePath}`);
+
+        // POST
+
+        const createResponse =  await request.post(USERS_URL, {
+            data: NEW_USER_PAYLOAD,
+        });
+
+        expect(createResponse.status()).toBe(200);
+
+        const createdUserData = await createResponse.json(); // 👈 Извлекаем тело ответа
+        const createdUserId = createdUserData.id;             // 👈 Получаем ID
+        console.log(`✅ Пользователь создан. ID: ${createdUserId}`);
+
+        const deleteResponse = await request.delete(`$USERS_URL/${createdUserId}`);
+
+            // 2. Проверяем, что удаление прошло успешно
+            // При удалении API обычно возвращает 200 OK, 204 No Content или 202 Accepted.
+            
+            // Проверка, что статус ответа находится в диапазоне успешных (2xx)
+            expect(deleteResponse.ok()).toBeTruthy(); 
+            
+            console.log(`✅ Пользователь с ID ${createdUserId} успешно удален. Статус: ${deleteResponse.status()}`);
+        });
+        
+        
+        
+
+
+
+
+ })
+
+        
+        
+    
+
+    

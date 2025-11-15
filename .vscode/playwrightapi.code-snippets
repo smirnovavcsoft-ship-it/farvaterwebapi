@@ -1,0 +1,158 @@
+{
+	"Playwright BeforeEach API": {
+		"scope": "typescript",
+		"prefix": "pwbeapi",
+		"body": [
+			"test.beforeEach(async ({ ${1:request} }) => {",
+			"\t// Код инициализации перед каждым API тестом",
+			"\t$2",
+			"});"
+		],
+		"description": "Playwright test.beforeEach для API тестов"
+	},
+	
+	"Playwright Page Goto": {
+		"scope": "typescript, javascript",
+		"prefix": "pwgoto",
+		"body": [
+			"await page.goto('${1:https://example.com}');"
+		],
+		"description": "await page.goto()"
+	},
+
+    "The begining of testfile. Imports": {
+		"scope": "typescript",
+		"prefix": "pwTheBeginingOfFile",
+		"body": [
+			"// Файл: $TM_FILENAME",
+			"import { test, expect, APIRequestContext } from '@playwright/test';",
+			"import { v4 as uuidv4 } from 'uuid'; // Для уникальных кодов",
+			"import * as dotenv from 'dotenv';",
+			"import * as fs from 'fs';",
+			"",
+			"$1"
+		],
+		"description": "The beginging of testfile. Imports",
+	},
+
+	
+	"Load Access Token and Log": {
+		"prefix": "pwloadtoken",
+		"scope": "typescript",
+		"body": [
+			"// КОНФИГУРАЦИЯ И ПЕРЕМЕННЫЕ СОСТОЯНИЯ",
+			"dotenv.config(); ",
+			"const accessToken = process.env.${1:ACCESS_TOKEN};",
+			"console.log('🔑 Loaded token:', accessToken);",
+			"$2"
+		],
+		"description": "Загружает переменную окружения (токен) с помощью dotenv и выводит ее в консоль.",
+	},
+
+	"API URL Constants": {
+		"prefix": "pwapiurls",
+		"scope": "typescript",
+		"body": [
+			"// Эндпоинт для ${1:}",
+			"",
+			"const ${2:USERS_URL} = '/api/farvater/data/v1/${3:}';",
+			"const ${4:DELETE_USER_URL} = '/api/farvater/data/v1/users/${5:}\";",
+			"$6"
+		],
+		"description": "Вставляет константы для базовых URL API и URL для удаления по ID."
+	},
+
+	"Test Data and Payload Template": {
+		"prefix": "pwtestpayload",
+		"scope": "typescript",
+		"body": [
+			"// Данные для тестирования",
+			"const ${1:user1Lastname} = '${2:Фамилия}', ${3:user1Firstname} = '${4:Имя}';",
+			"//const ${5:user2Lastname} = '${6:Фамилия2}', ${7:user2Firstname} = '${8:Имя2}';",
+			"//const ${9:user3Lastname} = '${10:Фамилия3}', ${11:user3Firstname} = '${12:Имя3}';",
+			"",
+			"const ${13:NEW_USER_PAYLOAD} = {",
+			"\tfirstName: ${14:user1Firstname},",
+			"\tlastName: ${15:user1Lastname},",
+			"\tlogin: ${16:user1Lastname}, ",
+			"\tmiddleName: \"${17:}\",",
+			"\tphone: \"${18:}\",",
+			"\tmail: \"${19:}\",",
+			"\tisDisabled: ${20:true},",
+			"\tisDomainUser: ${21:false},",
+			"\tisLeader: ${22:false},",
+			"\tpersonnelNumber: \"${23:}\",",
+			"\trightToSign: ${24:false},",
+			"\t",
+			"\t// Объекты, которые могут быть пустыми или содержать ID (если известно)",
+			"\tdepartment: {},",
+			"\tposition: {},",
+			"};",
+			"$25"
+		],
+		"description": "Шаблон констант тестовых данных пользователя и объекта NEW_USER_PAYLOAD."
+	},
+
+	"Playwright API Hooks Only": {
+		"prefix": "pwapihooks",
+		"scope": "typescript",
+		"body": [
+			"import { test, expect, APIRequestContext } from '@playwright/test';",
+			"",
+			"let request: APIRequestContext;",
+			"",
+			"test.describe('${1:APITestSuiteName}', () => {",
+			"\t// Хук: Настройка контекста и авторизации (Выполняется 1 раз перед всеми тестами)",
+			"\ttest.beforeAll(async({ playwright, baseURL }) => {",
+			"\t\trequest = await playwright.request.newContext({",
+			"\t\t\tbaseURL: baseURL, // Используем базовый URL из конфигурации Playwright",
+			"\t\t\textraHTTPHeaders: {",
+			"\t\t\t\t'Authorization' : `Bearer ${2:ACCESS_TOKEN_VAR}`,",
+			"\t\t\t\t'Content-Type': 'application/json', ",
+			"\t\t\t},",
+			"\t\t});",
+			"\t});",
+			"",
+			"\t// Здесь будут основные тесты (например, test('...', async () => { ... }))",
+			"\t$3",
+			"",
+			"\t// Хук: Очистка (выполняется один раз после всех тестов)",
+			"\ttest.afterAll(async () => {",
+			"\t\tif (request) {",
+			"\t\t\tawait request.dispose();",
+			"\t\t}",
+			"\t});",
+			"});"
+		],
+		"description": "Базовый шаблон Playwright API-теста с beforeAll (инициализация контекста) и afterAll (очистка)."
+	},
+
+	"Playwright GET Request with File Save": {
+		"prefix": "pwgetsave",
+		"scope": "typescript",
+		"body": [
+			"// GET: Получить ${1:все_пользователи}",
+			"const getResponse = await ${2:request}.get(${3:USERS_URL});",
+			"expect(getResponse.status()).toBe(200);",
+			"const ${4:allUsers} = await getResponse.json();",
+			"",
+			"// 🚀 ШАГ: ЗАПИСЬ ОТВЕТА В ФАЙЛ",
+			"const jsonResponse = JSON.stringify(${4:allUsers}, null, 2); ",
+			"const filePath = './test_output/${5:all_users_list}.json';",
+			"// 💡 Создаем директорию, если она не существует",
+			"if (!fs.existsSync('./test_output')) {",
+			"\tfs.mkdirSync('./test_output');",
+			"}",
+			"fs.writeFileSync(filePath, jsonResponse);",
+			"console.log(`✅ Ответ API сохранен в: ${filePath}`);",
+			"$6"
+		],
+		"description": "Шаблон GET-запроса Playwright с проверкой статуса и сохранением JSON-ответа в файл."
+	}
+
+
+
+
+
+
+}

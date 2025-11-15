@@ -1,0 +1,5266 @@
+[
+  {
+    "$id": "1",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH374B15054B1D0000000000",
+    "description": "1 2 3",
+    "firstName": "2",
+    "middleName": "3",
+    "lastName": "1",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1919749",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-09-23T12:00:53.607Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "init_66",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [
+      {
+        "$id": "2",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "THAA236C1F231F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "1 2 3",
+          "handle": "TH374B15054B1D0000000000",
+          "sysId": "USER_EB3DC7A4_D4B6_4303_9724_9D72F562E848"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "3",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "4",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "5",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "6",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "7",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "8",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "9",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THC41B15901B1F0000000000",
+    "description": "erer dsff erere",
+    "firstName": "dsff",
+    "middleName": "erere",
+    "lastName": "erer",
+    "mail": "test@mcad.ru",
+    "phone": "",
+    "isDisabled": true,
+    "id": "2038672",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-14T08:23:03.951Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "pomitoxe",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "10",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "11",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "12",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "13",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "14",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "15",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "16",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH752C153F2C210000000000",
+    "description": "mmmm mmmm",
+    "firstName": "mmmm",
+    "middleName": "",
+    "lastName": "mmmm",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2174015",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-11-01T13:56:26.261Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "mmmm",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "17",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "18",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "19",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "20",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "21",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "22",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "23",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH134015E33F1B0000000000",
+    "description": "r r r",
+    "firstName": "r",
+    "middleName": "r",
+    "lastName": "r",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1785827",
+    "department": {
+      "$id": "24",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_920280CC_A978_46FF_902F_E4EB6D9B58F2",
+      "code": "ОИТ",
+      "handle": "TH2D4414FE431B0000000000",
+      "description": "Отдел информационных технологий",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-08-20T05:52:21.9Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "login",
+    "isDomainUser": false,
+    "isSysadmin": true,
+    "substitutions": [
+      {
+        "$id": "25",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "THEA1B6C5F1B1F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "r r r",
+          "handle": "TH134015E33F1B0000000000",
+          "sysId": "USER_DE99D4E2_1C26_42CF_929B_F8FF0E265A3F"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      },
+      {
+        "$id": "26",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH78186CED171F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "r r r",
+          "handle": "TH134015E33F1B0000000000",
+          "sysId": "USER_DE99D4E2_1C26_42CF_929B_F8FF0E265A3F"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "2025-09-30T18:00:00Z",
+        "finishDate": "2025-10-01T18:00:00Z",
+        "active": false
+      },
+      {
+        "$id": "27",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH7A186CEF171F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "r r r",
+          "handle": "TH134015E33F1B0000000000",
+          "sysId": "USER_DE99D4E2_1C26_42CF_929B_F8FF0E265A3F"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "2025-09-30T18:00:00Z",
+        "finishDate": "2025-09-30T18:00:00Z",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "28",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "29",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "30",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "31",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "32",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "33",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "34",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THFC1B15C81B1F0000000000",
+    "description": "testDelete testDelete",
+    "firstName": "testDelete",
+    "middleName": "",
+    "lastName": "testDelete",
+    "mail": "testDelete@mcad.ru",
+    "phone": "",
+    "isDisabled": true,
+    "id": "2038728",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-14T08:43:41.293Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "DeleteTest",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "35",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "36",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "37",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "38",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "39",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "40",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "41",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THAE37157E371B0000000000",
+    "description": "test test",
+    "firstName": "test",
+    "middleName": "",
+    "lastName": "test",
+    "mail": "",
+    "phone": "",
+    "isDisabled": true,
+    "id": "1783678",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-03T03:44:08.253Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "test",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "42",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "43",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "44",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "45",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "46",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "47",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "48",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH8C2C15562C210000000000",
+    "description": "testt testt",
+    "firstName": "testt",
+    "middleName": "",
+    "lastName": "testt",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2174038",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-11-01T13:57:24.435Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "testtt",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "49",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "50",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "51",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "52",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "53",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "54",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "55",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THC6371596371B0000000000",
+    "description": "testu testu",
+    "firstName": "testu",
+    "middleName": "",
+    "lastName": "testu",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1783702",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-07T10:53:38.186Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "testu",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [
+      {
+        "$id": "56",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH22246C97231F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "testu testu",
+          "handle": "THC6371596371B0000000000",
+          "sysId": "USER_DA477911_3149_4AE1_B12F_24EB7D4EF310"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      },
+      {
+        "$id": "57",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH28246C9D231F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "testu testu",
+          "handle": "THC6371596371B0000000000",
+          "sysId": "USER_DA477911_3149_4AE1_B12F_24EB7D4EF310"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      },
+      {
+        "$id": "58",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH2A246C9F231F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "testu testu",
+          "handle": "THC6371596371B0000000000",
+          "sysId": "USER_DA477911_3149_4AE1_B12F_24EB7D4EF310"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      },
+      {
+        "$id": "59",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH2C246CA1231F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "testu testu",
+          "handle": "THC6371596371B0000000000",
+          "sysId": "USER_DA477911_3149_4AE1_B12F_24EB7D4EF310"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "60",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "61",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "62",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "63",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "64",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "65",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "66",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THA71B15731B1F0000000000",
+    "description": "tster dsfdsfsdf",
+    "firstName": "dsfdsfsdf",
+    "middleName": "",
+    "lastName": "tster",
+    "isDisabled": true,
+    "id": "2038643",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-14T08:41:48.401Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "pomitest",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "67",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "68",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "69",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "70",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "71",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "72",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "73",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH6DA61539A61F0000000000",
+    "description": "Абрамов Олег Сергеевич",
+    "firstName": "Олег",
+    "middleName": "Сергеевич",
+    "lastName": "Абрамов",
+    "mail": "o.abramov@company.ru",
+    "phone": "+7(999)232-50-29",
+    "isDisabled": false,
+    "id": "2074169",
+    "position": {
+      "$id": "74",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_13D11A8F_77B4_49AB_A867_691FB9348B25",
+      "handle": "THA9781478781D0000000000",
+      "description": "Начальник отдела ООС",
+      "assignable": false
+    },
+    "department": {
+      "$id": "75",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_B4DA8072_D801_4652_864D_BF0E2831CBD3",
+      "code": "ОУП",
+      "handle": "TH294414FA431B0000000000",
+      "description": "Отдел управления проектами",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-21T08:01:54.857Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "abramov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "76",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "77",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "78",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "79",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "80",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "81",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "82",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THFD0315E803000000000000",
+    "description": "Администратор Системный",
+    "firstName": "Системный",
+    "middleName": "",
+    "lastName": "Администратор",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1000",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-11-11T14:13:38.675Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "SYSADMIN",
+    "isDomainUser": false,
+    "isSysadmin": true,
+    "substitutions": [],
+    "rules": {
+      "$id": "83",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "84",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "85",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "86",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "87",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "88",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "89",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH94A61560A61F0000000000",
+    "description": "Алексеев Денис Сергеевич",
+    "firstName": "Денис",
+    "middleName": "Сергеевич",
+    "lastName": "Алексеев",
+    "mail": "d.alekseev@company.ru",
+    "phone": "+7(999)531-79-41",
+    "isDisabled": false,
+    "id": "2074208",
+    "position": {
+      "$id": "90",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_13D11A8F_77B4_49AB_A867_691FB9348B25",
+      "handle": "THA9781478781D0000000000",
+      "description": "Начальник отдела ООС",
+      "assignable": false
+    },
+    "department": {
+      "$id": "91",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_B4DA8072_D801_4652_864D_BF0E2831CBD3",
+      "code": "ОУП",
+      "handle": "TH294414FA431B0000000000",
+      "description": "Отдел управления проектами",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-21T08:03:09.329Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "alekseev",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "92",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "93",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "94",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "95",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "96",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "97",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "98",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH9178155F781D0000000000",
+    "description": "Беляева Вера Дмитриевна",
+    "firstName": "Вера",
+    "middleName": "Дмитриевна",
+    "lastName": "Беляева",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1931359",
+    "position": {
+      "$id": "99",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_13D11A8F_77B4_49AB_A867_691FB9348B25",
+      "handle": "THA9781478781D0000000000",
+      "description": "Начальник отдела ООС",
+      "assignable": false
+    },
+    "department": {
+      "$id": "100",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_484E06BE_C6E8_4001_A52F_088C5305519A",
+      "code": "1",
+      "handle": "THA8781477781D0000000000",
+      "description": "Отдел охраны окружающей среды",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-09T05:00:58.229Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Беляева",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "101",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "102",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "103",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "104",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "105",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "106",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "107",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THE43F15B43F1B0000000000",
+    "description": "Беркут Иван Иванович",
+    "firstName": "Иван",
+    "middleName": "Иванович",
+    "lastName": "Беркут",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1785780",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-09T05:04:07.877Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Berkut",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [
+      {
+        "$id": "108",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH01616C76601F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Голубков Илья Сергеевич",
+          "handle": "TH64231534231B0000000000",
+          "sysId": "USER_BE50F4A8_629D_4B1E_858F_4CD9E6575C5E"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Беркут Иван Иванович",
+          "handle": "THE43F15B43F1B0000000000",
+          "sysId": "USER_9605C68E_0651_4B80_9753_5A63422A11B4"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Голубков Илья Сергеевич",
+          "handle": "TH64231534231B0000000000",
+          "sysId": "USER_BE50F4A8_629D_4B1E_858F_4CD9E6575C5E"
+        },
+        "startDate": "2025-10-20T18:00:00Z",
+        "finishDate": "2025-10-21T18:00:00Z",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "109",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "110",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "111",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "112",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "113",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "114",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "115",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH4BF81517F81F0000000000",
+    "description": "Беркутов-sav Борис Владимирович",
+    "firstName": "Борис",
+    "middleName": "Владимирович",
+    "lastName": "Беркутов-sav",
+    "mail": "berkutov@tdms.ru",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2095127",
+    "position": {
+      "$id": "116",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_64706D40_B973_4C93_A1F4_4812655AD13A",
+      "handle": "TH48F81415F81F0000000000",
+      "description": "Генеральный директор",
+      "assignable": false
+    },
+    "department": {
+      "$id": "117",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_9578CE36_1F5B_4352_B29C_2D4FC0AAC9D8",
+      "code": "",
+      "handle": "TH49F81416F81F0000000000",
+      "description": "Руководство",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-23T11:00:39.603Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "бсав",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "118",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "119",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "120",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "121",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "122",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "123",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "124",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH181C15E41B1F0000000000",
+    "description": "Вилder fgghder",
+    "firstName": "fgghder",
+    "middleName": "",
+    "lastName": "Вилder",
+    "mail": "testqwertye@mcad.ru",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2038756",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-14T08:45:45.022Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Testqwerty",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "125",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "126",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "127",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "128",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "129",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "130",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "131",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THEC9115BC911B0000000000",
+    "description": "Вильгельм Игорь",
+    "firstName": "Игорь",
+    "middleName": "",
+    "lastName": "Вильгельм",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1806780",
+    "position": {
+      "$id": "132",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_08E2A244_3BE3_4181_8968_62FEBC897C13",
+      "handle": "TH32441403441B0000000000",
+      "description": "ГИП",
+      "assignable": false
+    },
+    "department": {
+      "$id": "133",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_B4DA8072_D801_4652_864D_BF0E2831CBD3",
+      "code": "ОУП",
+      "handle": "TH294414FA431B0000000000",
+      "description": "Отдел управления проектами",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "wilhelm",
+    "modifyTime": "2025-10-14T08:09:39.415Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "wilhelm",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "134",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "135",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "136",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "137",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "138",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "139",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "140",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THC40B158D0B220000000000",
+    "description": "ГИП ГИП",
+    "firstName": "ГИП",
+    "middleName": "",
+    "lastName": "ГИП",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2231181",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-11-11T13:23:00.449Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "ГИП",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "141",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "142",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "143",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "144",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "145",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "146",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "147",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH64231534231B0000000000",
+    "description": "Голубков Илья Сергеевич",
+    "firstName": "Илья",
+    "middleName": "Сергеевич",
+    "lastName": "Голубков",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1778484",
+    "position": {
+      "$id": "148",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_196AB007_1912_489F_9BD5_AF002017D94A",
+      "handle": "THCC50149B501D0000000000",
+      "description": "Дворник",
+      "assignable": false
+    },
+    "department": {
+      "$id": "149",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_7DF7D0AC_DC6D_4FB7_9F0C_87D4F9CDA483",
+      "code": "BIM",
+      "handle": "TH69751439751C0000000000",
+      "description": "BIM-отдел",
+      "assignable": false
+    },
+    "isLeader": true,
+    "personnelNumber": "11234",
+    "modifyTime": "2025-11-05T03:11:55.971Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "golubkov",
+    "isDomainUser": false,
+    "isSysadmin": true,
+    "substitutions": [
+      {
+        "$id": "150",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH02616C77601F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Голубков Илья Сергеевич",
+          "handle": "TH64231534231B0000000000",
+          "sysId": "USER_BE50F4A8_629D_4B1E_858F_4CD9E6575C5E"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Беркут Иван Иванович",
+          "handle": "THE43F15B43F1B0000000000",
+          "sysId": "USER_9605C68E_0651_4B80_9753_5A63422A11B4"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Голубков Илья Сергеевич",
+          "handle": "TH64231534231B0000000000",
+          "sysId": "USER_BE50F4A8_629D_4B1E_858F_4CD9E6575C5E"
+        },
+        "startDate": "2025-10-20T18:00:00Z",
+        "finishDate": "2025-10-21T18:00:00Z",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "151",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "152",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "153",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "154",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "155",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "156",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": true
+  },
+  {
+    "$id": "157",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH047115D3701C0000000000",
+    "description": "Гусев Григорий Дмитриевич",
+    "firstName": "Григорий",
+    "middleName": "Дмитриевич",
+    "lastName": "Гусев",
+    "mail": "",
+    "phone": "123",
+    "isDisabled": false,
+    "id": "1863891",
+    "position": {
+      "$id": "158",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_08E2A244_3BE3_4181_8968_62FEBC897C13",
+      "handle": "TH32441403441B0000000000",
+      "description": "ГИП",
+      "assignable": false
+    },
+    "department": {
+      "$id": "159",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_B4DA8072_D801_4652_864D_BF0E2831CBD3",
+      "code": "ОУП",
+      "handle": "TH294414FA431B0000000000",
+      "description": "Отдел управления проектами",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-11-05T03:12:52.788Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Гусев",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [
+      {
+        "$id": "160",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "THD5B06C4BB01E0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Нифонтова Людмила Сергеевна",
+          "handle": "THEDF015BEF01A0000000000",
+          "sysId": "USER_F947FF4C_CEF7_41D2_BA65_1B7F60103619"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Гусев Григорий Дмитриевич",
+          "handle": "TH047115D3701C0000000000",
+          "sysId": "USER_17618A1E_9EDF_41BD_9A66_077E16D44399"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Нифонтова Людмила Сергеевна",
+          "handle": "THEDF015BEF01A0000000000",
+          "sysId": "USER_F947FF4C_CEF7_41D2_BA65_1B7F60103619"
+        },
+        "startDate": "2025-10-10T11:18:38.787Z",
+        "finishDate": "2025-10-10T11:18:38.787Z",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "161",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "162",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "163",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "164",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "165",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "166",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "167",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH6C75153B751C0000000000",
+    "description": "Данилевич Оксана",
+    "firstName": "Оксана",
+    "middleName": "",
+    "lastName": "Данилевич",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1865019",
+    "position": {
+      "$id": "168",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "169",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_7DF7D0AC_DC6D_4FB7_9F0C_87D4F9CDA483",
+      "code": "BIM",
+      "handle": "TH69751439751C0000000000",
+      "description": "BIM-отдел",
+      "assignable": false
+    },
+    "isLeader": true,
+    "personnelNumber": "",
+    "modifyTime": "2025-09-23T04:18:51.275Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Данилевич",
+    "isDomainUser": false,
+    "isSysadmin": true,
+    "substitutions": [],
+    "rules": {
+      "$id": "170",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "171",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "172",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "173",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "174",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "175",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "176",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH6E44153E441B0000000000",
+    "description": "Данилейко Сергей Григорьевич",
+    "firstName": "Сергей",
+    "middleName": "Григорьевич",
+    "lastName": "Данилейко",
+    "mail": "",
+    "phone": "+79998887766",
+    "isDisabled": false,
+    "id": "1786942",
+    "position": {
+      "$id": "177",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_08E2A244_3BE3_4181_8968_62FEBC897C13",
+      "handle": "TH32441403441B0000000000",
+      "description": "ГИП",
+      "assignable": false
+    },
+    "department": {
+      "$id": "178",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_B4DA8072_D801_4652_864D_BF0E2831CBD3",
+      "code": "ОУП",
+      "handle": "TH294414FA431B0000000000",
+      "description": "Отдел управления проектами",
+      "assignable": false
+    },
+    "isLeader": true,
+    "personnelNumber": "5247654",
+    "modifyTime": "2025-08-18T05:31:11.893Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "danileyko",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "179",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "180",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "181",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "182",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "183",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "184",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "185",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH000C15C90B220000000000",
+    "description": "Делон Ален",
+    "firstName": "Ален",
+    "middleName": "",
+    "lastName": "Делон",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2231241",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-11-11T14:15:24.027Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "delon",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "186",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "187",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "188",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "189",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "190",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "191",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "192",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH8F34155B341F0000000000",
+    "description": "Жуков Роман Павлович",
+    "firstName": "Роман",
+    "middleName": "Павлович",
+    "lastName": "Жуков",
+    "mail": "r.zhukov@company.ru",
+    "phone": "+7(999)275-43-58",
+    "isDisabled": false,
+    "id": "2045019",
+    "position": {
+      "$id": "193",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "194",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_BBDC8F5C_2B75_494A_9DE4_6C8368C982C9",
+      "code": "",
+      "handle": "THE39F14B39F1C0000000000",
+      "description": "Группа Дубова",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-16T08:16:24.355Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "zhukov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "195",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "196",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "197",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "198",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "199",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "200",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "201",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH6F34153B341F0000000000",
+    "description": "Зайцев Евгений Михайлович",
+    "firstName": "Евгений",
+    "middleName": "Михайлович",
+    "lastName": "Зайцев",
+    "mail": "zaytsev70323@pany.ru",
+    "phone": "+7(999)241-71-68",
+    "isDisabled": false,
+    "id": "2044987",
+    "position": {
+      "$id": "202",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "203",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_BBDC8F5C_2B75_494A_9DE4_6C8368C982C9",
+      "code": "",
+      "handle": "THE39F14B39F1C0000000000",
+      "description": "Группа Дубова",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-16T08:07:40.478Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "user_зайцев70323",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "204",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "205",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "206",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "207",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "208",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "209",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "210",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH88A71554A71F0000000000",
+    "description": "Зайцев Игорь Андреевич",
+    "firstName": "Игорь",
+    "middleName": "Андреевич",
+    "lastName": "Зайцев",
+    "mail": "i.zaytsev@company.ru",
+    "phone": "+7(999)907-85-49",
+    "isDisabled": false,
+    "id": "2074452",
+    "position": {
+      "$id": "211",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_FCC35AAC_DACD_400D_BB25_597779BD0EC8",
+      "handle": "THE73514B5351E0000000000",
+      "description": "Начальник отдела",
+      "assignable": false
+    },
+    "department": {
+      "$id": "212",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_920280CC_A978_46FF_902F_E4EB6D9B58F2",
+      "code": "ОИТ",
+      "handle": "TH2D4414FE431B0000000000",
+      "description": "Отдел информационных технологий",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-21T08:31:42.263Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "zaytsev",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "213",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "214",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "215",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "216",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "217",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "218",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "219",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH193615E6351E0000000000",
+    "description": "Зяблик Семен Семенович",
+    "firstName": "Семен",
+    "middleName": "Семенович",
+    "lastName": "Зяблик",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1979878",
+    "position": {
+      "$id": "220",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_FCC35AAC_DACD_400D_BB25_597779BD0EC8",
+      "handle": "THE73514B5351E0000000000",
+      "description": "Начальник отдела",
+      "assignable": false
+    },
+    "department": {
+      "$id": "221",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_40B2C07A_EDD4_41BF_A10E_94862442E278",
+      "code": "К",
+      "handle": "THC5351493351E0000000000",
+      "description": "Канцелярия",
+      "assignable": false
+    },
+    "isLeader": true,
+    "personnelNumber": "40-001",
+    "modifyTime": "2025-10-09T07:09:11.171Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Зяблик",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [
+      {
+        "$id": "222",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH00796C76781E0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Зяблик Семен Семенович",
+          "handle": "TH193615E6351E0000000000",
+          "sysId": "USER_22164279_7DB4_4DF2_BAA9_F91344608719"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Кукушкин Иван Иванович",
+          "handle": "THE93515B6351E0000000000",
+          "sysId": "USER_54F228ED_B8D8_4954_8FA0_2978E92049CF"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Калита Александр Витальевич",
+          "handle": "TH682C15382C1B0000000000",
+          "sysId": "USER_AKALITA"
+        },
+        "startDate": "2025-10-09T07:08:52.715Z",
+        "finishDate": "2025-10-09T18:00:00Z",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "223",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "224",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "225",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "226",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "227",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "228",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "229",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THF33115BF311F0000000000",
+    "description": "Игнатьева Анна Викторовна",
+    "firstName": "Анна",
+    "middleName": "Викторовна",
+    "lastName": "Игнатьева",
+    "mail": "a.ignatieva@company.ru",
+    "phone": "+7 (499) 789-01-23 доб 305",
+    "isDisabled": true,
+    "id": "2044351",
+    "position": {
+      "$id": "230",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "231",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_7DF7D0AC_DC6D_4FB7_9F0C_87D4F9CDA483",
+      "code": "BIM",
+      "handle": "TH69751439751C0000000000",
+      "description": "BIM-отдел",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "1451",
+    "modifyTime": "2025-10-15T09:27:38.848Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "ignatieva_del",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "232",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "233",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "234",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "235",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "236",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "237",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "238",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH143215E0311F0000000000",
+    "description": "Игнатьева Анна Викторовна",
+    "firstName": "Анна",
+    "middleName": "Викторовна",
+    "lastName": "Игнатьева",
+    "mail": "a.ignatieva@company.ru",
+    "phone": "+7 (499) 789-01-23 доб 305",
+    "isDisabled": false,
+    "id": "2044384",
+    "position": {
+      "$id": "239",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "240",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_7DF7D0AC_DC6D_4FB7_9F0C_87D4F9CDA483",
+      "code": "BIM",
+      "handle": "TH69751439751C0000000000",
+      "description": "BIM-отдел",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "1451",
+    "modifyTime": "2025-10-16T10:28:09.647Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "ignatieva",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "241",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "242",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "243",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "244",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "245",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "246",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "247",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH682C15382C1B0000000000",
+    "description": "Калита Александр Витальевич",
+    "firstName": "Александр",
+    "middleName": "Витальевич",
+    "lastName": "Калита",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1780792",
+    "position": {
+      "$id": "248",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_08E2A244_3BE3_4181_8968_62FEBC897C13",
+      "handle": "TH32441403441B0000000000",
+      "description": "ГИП",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-09T05:11:09.065Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "kalita",
+    "isDomainUser": false,
+    "isSysadmin": true,
+    "substitutions": [
+      {
+        "$id": "249",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH15786C8B771E0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Кукушкин Иван Иванович",
+          "handle": "THE93515B6351E0000000000",
+          "sysId": "USER_54F228ED_B8D8_4954_8FA0_2978E92049CF"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Калита Александр Витальевич",
+          "handle": "TH682C15382C1B0000000000",
+          "sysId": "USER_AKALITA"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Калита Александр Витальевич",
+          "handle": "TH682C15382C1B0000000000",
+          "sysId": "USER_AKALITA"
+        },
+        "startDate": "2025-10-09T04:58:16.67Z",
+        "finishDate": "2025-10-09T18:00:00Z",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "250",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "251",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "252",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "253",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "254",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "255",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "256",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THF6AC15C3AC1E0000000000",
+    "description": "Калитин Александр Витальевич",
+    "firstName": "Александр",
+    "middleName": "Витальевич",
+    "lastName": "Калитин",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2010307",
+    "position": {
+      "$id": "257",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_906414BB_E5C4_4835_80FC_3A38C051C35C",
+      "handle": "TH003614CE351E0000000000",
+      "description": "инженер 1 категории",
+      "assignable": false
+    },
+    "department": {
+      "$id": "258",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_26E2C052_D825_4297_B3CB_86CF0CEF5BE3",
+      "code": "СО",
+      "handle": "THC3351491351E0000000000",
+      "description": "Сметный отдел",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "5896651",
+    "modifyTime": "2025-10-10T04:33:44.357Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Калитин",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "259",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "260",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "261",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "262",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "263",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "264",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "265",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THC8A51595A51E0000000000",
+    "description": "Китайцев Рамзан Халилович",
+    "firstName": "Рамзан",
+    "middleName": "Халилович",
+    "lastName": "Китайцев",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2008469",
+    "position": {
+      "$id": "266",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_906414BB_E5C4_4835_80FC_3A38C051C35C",
+      "handle": "TH003614CE351E0000000000",
+      "description": "инженер 1 категории",
+      "assignable": false
+    },
+    "department": {
+      "$id": "267",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_BBDC8F5C_2B75_494A_9DE4_6C8368C982C9",
+      "code": "",
+      "handle": "THE39F14B39F1C0000000000",
+      "description": "Группа Дубова",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "000-У-1",
+    "modifyTime": "2025-10-09T14:37:35.892Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Kit",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "268",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "269",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "270",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "271",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "272",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "273",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "274",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THE93515B6351E0000000000",
+    "description": "Кукушкин Иван Иванович",
+    "firstName": "Иван",
+    "middleName": "Иванович",
+    "lastName": "Кукушкин",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1979830",
+    "position": {
+      "$id": "275",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_FCC35AAC_DACD_400D_BB25_597779BD0EC8",
+      "handle": "THE73514B5351E0000000000",
+      "description": "Начальник отдела",
+      "assignable": false
+    },
+    "department": {
+      "$id": "276",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_61BE3FBD_BB35_4EB0_A208_52FA5C2E8876",
+      "code": "ПО",
+      "handle": "THC2351490351E0000000000",
+      "description": "Проектный отдел",
+      "assignable": false
+    },
+    "isLeader": true,
+    "personnelNumber": "10-001",
+    "modifyTime": "2025-10-09T04:49:23.517Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Кукушкин",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [
+      {
+        "$id": "277",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH16786C8C771E0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Кукушкин Иван Иванович",
+          "handle": "THE93515B6351E0000000000",
+          "sysId": "USER_54F228ED_B8D8_4954_8FA0_2978E92049CF"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Калита Александр Витальевич",
+          "handle": "TH682C15382C1B0000000000",
+          "sysId": "USER_AKALITA"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Калита Александр Витальевич",
+          "handle": "TH682C15382C1B0000000000",
+          "sysId": "USER_AKALITA"
+        },
+        "startDate": "2025-10-09T04:58:16.67Z",
+        "finishDate": "2025-10-09T18:00:00Z",
+        "active": false
+      },
+      {
+        "$id": "278",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "THFF786C75781E0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Зяблик Семен Семенович",
+          "handle": "TH193615E6351E0000000000",
+          "sysId": "USER_22164279_7DB4_4DF2_BAA9_F91344608719"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Кукушкин Иван Иванович",
+          "handle": "THE93515B6351E0000000000",
+          "sysId": "USER_54F228ED_B8D8_4954_8FA0_2978E92049CF"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Калита Александр Витальевич",
+          "handle": "TH682C15382C1B0000000000",
+          "sysId": "USER_AKALITA"
+        },
+        "startDate": "2025-10-09T07:08:52.715Z",
+        "finishDate": "2025-10-09T18:00:00Z",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "279",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "280",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "281",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "282",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "283",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "284",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "285",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH5334151F341F0000000000",
+    "description": "Макаров Петр Дмитриевич",
+    "firstName": "Петр",
+    "middleName": "Дмитриевич",
+    "lastName": "Макаров",
+    "mail": "makarov73086@company.ru",
+    "phone": "+7(999)798-58-81",
+    "isDisabled": false,
+    "id": "2044959",
+    "position": {
+      "$id": "286",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "287",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_BBDC8F5C_2B75_494A_9DE4_6C8368C982C9",
+      "code": "",
+      "handle": "THE39F14B39F1C0000000000",
+      "description": "Группа Дубова",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-16T08:08:21.755Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "makarov73086",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "288",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "289",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "290",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "291",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "292",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "293",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "294",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH34441504441B0000000000",
+    "description": "Маслов Дмитрий Викторович",
+    "firstName": "Дмитрий",
+    "middleName": "Викторович",
+    "lastName": "Маслов",
+    "mail": "maslov@mcad.ru",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1786884",
+    "position": {
+      "$id": "295",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_08E2A244_3BE3_4181_8968_62FEBC897C13",
+      "handle": "TH32441403441B0000000000",
+      "description": "ГИП",
+      "assignable": false
+    },
+    "department": {
+      "$id": "296",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_B4DA8072_D801_4652_864D_BF0E2831CBD3",
+      "code": "ОУП",
+      "handle": "TH294414FA431B0000000000",
+      "description": "Отдел управления проектами",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "26001",
+    "modifyTime": "2025-10-09T05:00:58.229Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "maslov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "297",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "298",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "299",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "300",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "301",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "302",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "303",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THB27B15827B1B0000000000",
+    "description": "Молодец Помидорец Юрьевич",
+    "firstName": "Помидорец",
+    "middleName": "Юрьевич",
+    "lastName": "Молодец",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1801090",
+    "position": {
+      "$id": "304",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_196AB007_1912_489F_9BD5_AF002017D94A",
+      "handle": "THCC50149B501D0000000000",
+      "description": "Дворник",
+      "assignable": false
+    },
+    "department": {
+      "$id": "305",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_920280CC_A978_46FF_902F_E4EB6D9B58F2",
+      "code": "ОИТ",
+      "handle": "TH2D4414FE431B0000000000",
+      "description": "Отдел информационных технологий",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-09-29T06:41:17.924Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "pomi",
+    "isDomainUser": false,
+    "isSysadmin": true,
+    "substitutions": [],
+    "rules": {
+      "$id": "306",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "307",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "308",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "309",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "310",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "311",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "312",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THAE34157A341F0000000000",
+    "description": "Морозов Борис Петрович",
+    "firstName": "Борис",
+    "middleName": "Петрович",
+    "lastName": "Морозов",
+    "mail": "b.morozov@company.ru",
+    "phone": "+7(999)918-39-43",
+    "isDisabled": false,
+    "id": "2045050",
+    "position": {
+      "$id": "313",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_906414BB_E5C4_4835_80FC_3A38C051C35C",
+      "handle": "TH003614CE351E0000000000",
+      "description": "инженер 1 категории",
+      "assignable": false
+    },
+    "department": {
+      "$id": "314",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_40B2C07A_EDD4_41BF_A10E_94862442E278",
+      "code": "К",
+      "handle": "THC5351493351E0000000000",
+      "description": "Канцелярия",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-16T08:28:49.122Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "morozov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "315",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "316",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "317",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "318",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "319",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "320",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "321",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THEDF015BEF01A0000000000",
+    "description": "Нифонтова Людмила Сергеевна",
+    "firstName": "Людмила",
+    "middleName": "Сергеевна",
+    "lastName": "Нифонтова",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1765566",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-09T05:07:31.585Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "nifontova",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [
+      {
+        "$id": "322",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "THD6B06C4CB01E0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Нифонтова Людмила Сергеевна",
+          "handle": "THEDF015BEF01A0000000000",
+          "sysId": "USER_F947FF4C_CEF7_41D2_BA65_1B7F60103619"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Гусев Григорий Дмитриевич",
+          "handle": "TH047115D3701C0000000000",
+          "sysId": "USER_17618A1E_9EDF_41BD_9A66_077E16D44399"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Нифонтова Людмила Сергеевна",
+          "handle": "THEDF015BEF01A0000000000",
+          "sysId": "USER_F947FF4C_CEF7_41D2_BA65_1B7F60103619"
+        },
+        "startDate": "2025-10-10T11:18:38.787Z",
+        "finishDate": "2025-10-10T11:18:38.787Z",
+        "active": false
+      },
+      {
+        "$id": "323",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH6A196CDF181F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Нифонтова Людмила Сергеевна",
+          "handle": "THEDF015BEF01A0000000000",
+          "sysId": "USER_F947FF4C_CEF7_41D2_BA65_1B7F60103619"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Тигровая Лилия",
+          "handle": "THEB1815B7181F0000000000",
+          "sysId": "USER_76931813_6FC2_4031_94E1_C1425B71C209"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Нифонтова Людмила Сергеевна",
+          "handle": "THEDF015BEF01A0000000000",
+          "sysId": "USER_F947FF4C_CEF7_41D2_BA65_1B7F60103619"
+        },
+        "startDate": "2025-10-14T08:48:51.512Z",
+        "finishDate": "2025-10-14T18:00:00Z",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "324",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "325",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "326",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "327",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "328",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "329",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "330",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH5332151F321F0000000000",
+    "description": "Носов Валерий Максимович",
+    "firstName": "Валерий",
+    "middleName": "Максимович",
+    "lastName": "Носов",
+    "mail": "nosov@login.ru",
+    "phone": "+7(981)137-66-22",
+    "isDisabled": false,
+    "id": "2044447",
+    "position": {
+      "$id": "331",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "332",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_7DF7D0AC_DC6D_4FB7_9F0C_87D4F9CDA483",
+      "code": "BIM",
+      "handle": "TH69751439751C0000000000",
+      "description": "BIM-отдел",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-15T09:40:30.329Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "nosov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "333",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "334",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "335",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "336",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "337",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "338",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "339",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH84301550301F0000000000",
+    "description": "Носов Валерий Максимович",
+    "firstName": "Валерий",
+    "middleName": "Максимович",
+    "lastName": "Носов",
+    "mail": "nosov@login.ru",
+    "phone": "+7(981)137-66-22",
+    "isDisabled": false,
+    "id": "2043984",
+    "position": {
+      "$id": "340",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "341",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_7DF7D0AC_DC6D_4FB7_9F0C_87D4F9CDA483",
+      "code": "BIM",
+      "handle": "TH69751439751C0000000000",
+      "description": "BIM-отдел",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-15T09:42:38.084Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "nosov-del",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "342",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "343",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "344",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "345",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "346",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "347",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "348",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH1B3015E72F1F0000000000",
+    "description": "Носов Валерий Максимович",
+    "firstName": "Валерий",
+    "middleName": "Максимович",
+    "lastName": "Носов",
+    "mail": "nosov@login.ru",
+    "phone": "+7(981)137-66-22",
+    "isDisabled": true,
+    "id": "2043879",
+    "position": {
+      "$id": "349",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "350",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_7DF7D0AC_DC6D_4FB7_9F0C_87D4F9CDA483",
+      "code": "BIM",
+      "handle": "TH69751439751C0000000000",
+      "description": "BIM-отдел",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-15T05:48:07.036Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "nosov_del",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "351",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "352",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "353",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "354",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "355",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "356",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "357",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH574E15254E1D0000000000",
+    "description": "Огурец Игорец Викторович",
+    "firstName": "Игорец",
+    "middleName": "Викторович",
+    "lastName": "Огурец",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1920549",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-09-23T12:31:03.017Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "ogurets",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "358",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "359",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "360",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "361",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "362",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "363",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "364",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THE8F415B4F41F0000000000",
+    "description": "Орлов Фёдор Сергеевич",
+    "firstName": "Фёдор",
+    "middleName": "Сергеевич",
+    "lastName": "Орлов",
+    "mail": "f.orlov@company.ru",
+    "phone": "+7(999)500-92-22",
+    "isDisabled": false,
+    "id": "2094260",
+    "position": {
+      "$id": "365",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_196AB007_1912_489F_9BD5_AF002017D94A",
+      "handle": "THCC50149B501D0000000000",
+      "description": "Дворник",
+      "assignable": false
+    },
+    "department": {
+      "$id": "366",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_920280CC_A978_46FF_902F_E4EB6D9B58F2",
+      "code": "ОИТ",
+      "handle": "TH2D4414FE431B0000000000",
+      "description": "Отдел информационных технологий",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-22T12:26:11.479Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "orlov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "367",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "368",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "369",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "370",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "371",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "372",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "373",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH9C321568321F0000000000",
+    "description": "Панкратов Иван Андреевич",
+    "firstName": "Иван",
+    "middleName": "Андреевич",
+    "lastName": "Панкратов",
+    "mail": "pankratov@mail.ru",
+    "phone": "+7(900)123-45-10",
+    "isDisabled": false,
+    "id": "2044520",
+    "position": {
+      "$id": "374",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "375",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_BBDC8F5C_2B75_494A_9DE4_6C8368C982C9",
+      "code": "",
+      "handle": "THE39F14B39F1C0000000000",
+      "description": "Группа Дубова",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-15T09:59:17.84Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "pankratov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "376",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "377",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "378",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "379",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "380",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "381",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "382",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THC1F11592F11A0000000000",
+    "description": "Петров Петр Юрьевич",
+    "firstName": "Петр",
+    "middleName": "Юрьевич",
+    "lastName": "Петров",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1765778",
+    "position": {
+      "$id": "383",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_08E2A244_3BE3_4181_8968_62FEBC897C13",
+      "handle": "TH32441403441B0000000000",
+      "description": "ГИП",
+      "assignable": false
+    },
+    "department": {
+      "$id": "384",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_B4DA8072_D801_4652_864D_BF0E2831CBD3",
+      "code": "ОУП",
+      "handle": "TH294414FA431B0000000000",
+      "description": "Отдел управления проектами",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "007-П",
+    "modifyTime": "2025-10-09T05:00:58.229Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "petrov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "385",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "386",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "387",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "388",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "389",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "390",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "391",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THAC0B15750B220000000000",
+    "description": "Пользователь Пользователь",
+    "firstName": "Пользователь",
+    "middleName": "",
+    "lastName": "Пользователь",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2231157",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-11-11T13:22:34.05Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Пользователь",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "392",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "393",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "394",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "395",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "396",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "397",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "398",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH4EA7151AA71F0000000000",
+    "description": "Попов Евгений Павлович",
+    "firstName": "Евгений",
+    "middleName": "Павлович",
+    "lastName": "Попов",
+    "mail": "e.popov@company.ru",
+    "phone": "+7(999)287-54-48",
+    "isDisabled": false,
+    "id": "2074394",
+    "position": {
+      "$id": "399",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_13D11A8F_77B4_49AB_A867_691FB9348B25",
+      "handle": "THA9781478781D0000000000",
+      "description": "Начальник отдела ООС",
+      "assignable": false
+    },
+    "department": {
+      "$id": "400",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_920280CC_A978_46FF_902F_E4EB6D9B58F2",
+      "code": "ОИТ",
+      "handle": "TH2D4414FE431B0000000000",
+      "description": "Отдел информационных технологий",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-21T08:27:16.128Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "popov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "401",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "402",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "403",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "404",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "405",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "406",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "407",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THD04415A0441B0000000000",
+    "description": "Прыткова Ирина",
+    "firstName": "Ирина",
+    "middleName": "",
+    "lastName": "Прыткова",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1787040",
+    "department": {
+      "$id": "408",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_B4DA8072_D801_4652_864D_BF0E2831CBD3",
+      "code": "ОУП",
+      "handle": "TH294414FA431B0000000000",
+      "description": "Отдел управления проектами",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-14T06:23:37.094Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "prytkova",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [
+      {
+        "$id": "409",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "THAB236C20231F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "1 2 3",
+          "handle": "TH374B15054B1D0000000000",
+          "sysId": "USER_EB3DC7A4_D4B6_4303_9724_9D72F562E848"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      },
+      {
+        "$id": "410",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH23246C98231F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "testu testu",
+          "handle": "THC6371596371B0000000000",
+          "sysId": "USER_DA477911_3149_4AE1_B12F_24EB7D4EF310"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      },
+      {
+        "$id": "411",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH29246C9E231F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "testu testu",
+          "handle": "THC6371596371B0000000000",
+          "sysId": "USER_DA477911_3149_4AE1_B12F_24EB7D4EF310"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      },
+      {
+        "$id": "412",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH2B246CA0231F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "testu testu",
+          "handle": "THC6371596371B0000000000",
+          "sysId": "USER_DA477911_3149_4AE1_B12F_24EB7D4EF310"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      },
+      {
+        "$id": "413",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH2D246CA2231F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "testu testu",
+          "handle": "THC6371596371B0000000000",
+          "sysId": "USER_DA477911_3149_4AE1_B12F_24EB7D4EF310"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      },
+      {
+        "$id": "414",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "THEB1B6C601B1F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "r r r",
+          "handle": "TH134015E33F1B0000000000",
+          "sysId": "USER_DE99D4E2_1C26_42CF_929B_F8FF0E265A3F"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "0001-01-01T00:00:00",
+        "finishDate": "0001-01-01T00:00:00",
+        "active": false
+      },
+      {
+        "$id": "415",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH79186CEE171F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "r r r",
+          "handle": "TH134015E33F1B0000000000",
+          "sysId": "USER_DE99D4E2_1C26_42CF_929B_F8FF0E265A3F"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "2025-09-30T18:00:00Z",
+        "finishDate": "2025-10-01T18:00:00Z",
+        "active": false
+      },
+      {
+        "$id": "416",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH7B186CF0171F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Прыткова Ирина",
+          "handle": "THD04415A0441B0000000000",
+          "sysId": "USER_77CBE84D_F995_4691_9DF6_4B5BA654EB9F"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "r r r",
+          "handle": "TH134015E33F1B0000000000",
+          "sysId": "USER_DE99D4E2_1C26_42CF_929B_F8FF0E265A3F"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Администратор Системный",
+          "handle": "THFD0315E803000000000000",
+          "sysId": "SYSADMIN"
+        },
+        "startDate": "2025-09-30T18:00:00Z",
+        "finishDate": "2025-09-30T18:00:00Z",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "417",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "418",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "419",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "420",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "421",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "422",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "423",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THB2C0157AC0230000000000",
+    "description": "Пупкин Василий",
+    "firstName": "Василий",
+    "middleName": "",
+    "lastName": "Пупкин",
+    "mail": "",
+    "phone": "",
+    "isDisabled": true,
+    "id": "2343034",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-11-14T18:58:40.933Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Пупкин",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "424",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "425",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "426",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "427",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "428",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "429",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "430",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH64F61530F61F0000000000",
+    "description": "Савинов Илья",
+    "firstName": "Илья",
+    "middleName": "",
+    "lastName": "Савинов",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2094640",
+    "position": {
+      "$id": "431",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_906414BB_E5C4_4835_80FC_3A38C051C35C",
+      "handle": "TH003614CE351E0000000000",
+      "description": "инженер 1 категории",
+      "assignable": false
+    },
+    "department": {
+      "$id": "432",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_61BE3FBD_BB35_4EB0_A208_52FA5C2E8876",
+      "code": "ПО",
+      "handle": "THC2351490351E0000000000",
+      "description": "Проектный отдел",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-23T10:02:14.069Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "савинов",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "433",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "434",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "435",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "436",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "437",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "438",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "439",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH023615CF351E0000000000",
+    "description": "Синица Сергей Алигерович",
+    "firstName": "Сергей",
+    "middleName": "Алигерович",
+    "lastName": "Синица",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1979855",
+    "position": {
+      "$id": "440",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_906414BB_E5C4_4835_80FC_3A38C051C35C",
+      "handle": "TH003614CE351E0000000000",
+      "description": "инженер 1 категории",
+      "assignable": false
+    },
+    "department": {
+      "$id": "441",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_61BE3FBD_BB35_4EB0_A208_52FA5C2E8876",
+      "code": "ПО",
+      "handle": "THC2351490351E0000000000",
+      "description": "Проектный отдел",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "10-003",
+    "modifyTime": "2025-10-09T04:50:12.598Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Синица",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "442",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "443",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "444",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "445",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "446",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "447",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "448",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH37361504361E0000000000",
+    "description": "Синичкин Филипп Григорьевич",
+    "firstName": "Филипп",
+    "middleName": "Григорьевич",
+    "lastName": "Синичкин",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1979908",
+    "position": {
+      "$id": "449",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_FCC35AAC_DACD_400D_BB25_597779BD0EC8",
+      "handle": "THE73514B5351E0000000000",
+      "description": "Начальник отдела",
+      "assignable": false
+    },
+    "department": {
+      "$id": "450",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_26E2C052_D825_4297_B3CB_86CF0CEF5BE3",
+      "code": "СО",
+      "handle": "THC3351491351E0000000000",
+      "description": "Сметный отдел",
+      "assignable": false
+    },
+    "isLeader": true,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-07T05:22:20.859Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Синичкин",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "451",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "452",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "453",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "454",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "455",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "456",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "457",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THC7FF1597FF1B0000000000",
+    "description": "Смирнов Александр",
+    "firstName": "Александр",
+    "middleName": "",
+    "lastName": "Смирнов",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1834903",
+    "isLeader": false,
+    "personnelNumber": "777",
+    "modifyTime": "2025-11-12T08:09:14.458Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "smirnov",
+    "isDomainUser": false,
+    "isSysadmin": true,
+    "substitutions": [],
+    "rules": {
+      "$id": "458",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "459",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "460",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "461",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "462",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "463",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "464",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THF82715C4271F0000000000",
+    "description": "Создан чтобы увольняться",
+    "firstName": "чтобы",
+    "middleName": "увольняться",
+    "lastName": "Создан",
+    "mail": "",
+    "phone": "",
+    "isDisabled": true,
+    "id": "2041796",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-14T11:49:18.057Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Создан",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "465",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "466",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "467",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "468",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "469",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "470",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "471",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH297615F6751E0000000000",
+    "description": "Сосновского Борщевик",
+    "firstName": "Борщевик",
+    "middleName": "",
+    "lastName": "Сосновского",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1996278",
+    "position": {
+      "$id": "472",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_906414BB_E5C4_4835_80FC_3A38C051C35C",
+      "handle": "TH003614CE351E0000000000",
+      "description": "инженер 1 категории",
+      "assignable": false
+    },
+    "department": {
+      "$id": "473",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_484E06BE_C6E8_4001_A52F_088C5305519A",
+      "code": "1",
+      "handle": "THA8781477781D0000000000",
+      "description": "Отдел охраны окружающей среды",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-16T05:04:13.608Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Борщевик",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "474",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "475",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "476",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "477",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "478",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "479",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "480",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THEFC515BEC51C0000000000",
+    "description": "Степурка Денис",
+    "firstName": "Денис",
+    "middleName": "",
+    "lastName": "Степурка",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1885630",
+    "position": {
+      "$id": "481",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_08E2A244_3BE3_4181_8968_62FEBC897C13",
+      "handle": "TH32441403441B0000000000",
+      "description": "ГИП",
+      "assignable": false
+    },
+    "department": {
+      "$id": "482",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_920280CC_A978_46FF_902F_E4EB6D9B58F2",
+      "code": "ОИТ",
+      "handle": "TH2D4414FE431B0000000000",
+      "description": "Отдел информационных технологий",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-09-15T05:15:22.5Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "stepurka",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "483",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "484",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "485",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "486",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "487",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "488",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "489",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH889F15579F1C0000000000",
+    "description": "Тестов Тест",
+    "firstName": "Тест",
+    "middleName": "",
+    "lastName": "Тестов",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1875799",
+    "position": {
+      "$id": "490",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_08E2A244_3BE3_4181_8968_62FEBC897C13",
+      "handle": "TH32441403441B0000000000",
+      "description": "ГИП",
+      "assignable": false
+    },
+    "department": {
+      "$id": "491",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_7DF7D0AC_DC6D_4FB7_9F0C_87D4F9CDA483",
+      "code": "BIM",
+      "handle": "TH69751439751C0000000000",
+      "description": "BIM-отдел",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-09-15T07:12:46.008Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Test12",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "492",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "493",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "494",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "495",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "496",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "497",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "498",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THE21B15AE1B1F0000000000",
+    "description": "Тестов Тестовbx",
+    "firstName": "Тестовbx",
+    "middleName": "",
+    "lastName": "Тестов",
+    "mail": "test@mcad.ru",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2038702",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-14T08:30:41.354Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "TestovichevPomi",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "499",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "500",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "501",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "502",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "503",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "504",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "505",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THEB1815B7181F0000000000",
+    "description": "Тигровая Лилия",
+    "firstName": "Лилия",
+    "middleName": "",
+    "lastName": "Тигровая",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "2037943",
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-14T08:46:20.091Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Тигровая",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [
+      {
+        "$id": "506",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.SubstitutionDto, Tdms.Farvater",
+        "handle": "TH69196CDE181F0000000000",
+        "substitute": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Нифонтова Людмила Сергеевна",
+          "handle": "THEDF015BEF01A0000000000",
+          "sysId": "USER_F947FF4C_CEF7_41D2_BA65_1B7F60103619"
+        },
+        "target": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Тигровая Лилия",
+          "handle": "THEB1815B7181F0000000000",
+          "sysId": "USER_76931813_6FC2_4031_94E1_C1425B71C209"
+        },
+        "createdBy": {
+          "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater",
+          "description": "Нифонтова Людмила Сергеевна",
+          "handle": "THEDF015BEF01A0000000000",
+          "sysId": "USER_F947FF4C_CEF7_41D2_BA65_1B7F60103619"
+        },
+        "startDate": "2025-10-14T08:48:51.512Z",
+        "finishDate": "2025-10-14T18:00:00Z",
+        "active": false
+      }
+    ],
+    "rules": {
+      "$id": "507",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "508",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "509",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "510",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "511",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "512",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "513",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THFB2F15C72F1F0000000000",
+    "description": "Усов Илья Максимович",
+    "firstName": "Илья",
+    "middleName": "Максимович",
+    "lastName": "Усов",
+    "mail": "usov@login.ru",
+    "phone": "+7(981)137-85-11",
+    "isDisabled": true,
+    "id": "2043847",
+    "position": {
+      "$id": "514",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_4B206A75_9638_4619_9642_433BD01053E1",
+      "handle": "TH6A75143A751C0000000000",
+      "description": "BIM-менеджер",
+      "assignable": false
+    },
+    "department": {
+      "$id": "515",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_7DF7D0AC_DC6D_4FB7_9F0C_87D4F9CDA483",
+      "code": "BIM",
+      "handle": "TH69751439751C0000000000",
+      "description": "BIM-отдел",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-15T05:13:29.9Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "usov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "516",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "517",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "518",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "519",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "520",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "521",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "522",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "THAA361576361F0000000000",
+    "description": "Фёдоров Дмитрий Евгеньевич",
+    "firstName": "Дмитрий",
+    "middleName": "Евгеньевич",
+    "lastName": "Фёдоров",
+    "mail": "d.fyodorov@company.ru",
+    "phone": "+7(999)791-52-99",
+    "isDisabled": false,
+    "id": "2045558",
+    "position": {
+      "$id": "523",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_906414BB_E5C4_4835_80FC_3A38C051C35C",
+      "handle": "TH003614CE351E0000000000",
+      "description": "инженер 1 категории",
+      "assignable": false
+    },
+    "department": {
+      "$id": "524",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_484E06BE_C6E8_4001_A52F_088C5305519A",
+      "code": "1",
+      "handle": "THA8781477781D0000000000",
+      "description": "Отдел охраны окружающей среды",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "",
+    "modifyTime": "2025-10-17T13:22:50.956Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "fyodorov",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "525",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "526",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "527",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "528",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "529",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "530",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  },
+  {
+    "$id": "531",
+    "$type": "Tdms.Farvater.WebApi.ViewModels.User.UserViewModel, Tdms.Farvater",
+    "handle": "TH34181503181C0000000000",
+    "description": "Чебурашкин Иван Тарасович",
+    "firstName": "Иван",
+    "middleName": "Тарасович",
+    "lastName": "Чебурашкин",
+    "mail": "",
+    "phone": "",
+    "isDisabled": false,
+    "id": "1841155",
+    "position": {
+      "$id": "532",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_08E2A244_3BE3_4181_8968_62FEBC897C13",
+      "handle": "TH32441403441B0000000000",
+      "description": "ГИП",
+      "assignable": false
+    },
+    "department": {
+      "$id": "533",
+      "$type": "Tdms.Farvater.WebApi.DTO.Objects.ClassifierDto, Tdms.Farvater",
+      "sysId": "NODE_B4DA8072_D801_4652_864D_BF0E2831CBD3",
+      "code": "ОУП",
+      "handle": "TH294414FA431B0000000000",
+      "description": "Отдел управления проектами",
+      "assignable": false
+    },
+    "isLeader": false,
+    "personnelNumber": "002",
+    "modifyTime": "2025-10-12T17:50:20.503Z",
+    "contact": {
+      "$type": "Tdms.Farvater.WebApi.DTO.Core.ReferenceDto, Tdms.Farvater"
+    },
+    "login": "Cheb",
+    "isDomainUser": false,
+    "isSysadmin": false,
+    "substitutions": [],
+    "rules": {
+      "$id": "534",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater]], System.Private.CoreLib",
+      "IsGip": {
+        "$id": "535",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsAdmin": {
+        "$id": "536",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsArchive": {
+        "$id": "537",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": false,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsContractEditor": {
+        "$id": "538",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      },
+      "IsORDEditor": {
+        "$id": "539",
+        "$type": "Tdms.Farvater.WebApi.DTO.Core.UserRuleDto, Tdms.Farvater",
+        "value": true,
+        "byGroup": false,
+        "groups": []
+      }
+    },
+    "rightToSign": false
+  }
+]
